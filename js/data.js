@@ -107,7 +107,7 @@ const qnaList = [
 
 const infoList = [
   {
-    name: '수식어를 입력하세요 <신체부위를 입력하세요>',
+    name: '낼름낼름 <혀>',
     desc: '설명을 입력하세요 '
   },
   {
