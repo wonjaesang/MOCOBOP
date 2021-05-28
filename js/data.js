@@ -64,43 +64,43 @@ const qnaList = [
   {
     q: '7. 질문을 입력하세요',
     a: [
-      { answer: 'a. 선택지를 입력하세요', type: [0] },
-      { answer: 'b. 선택지를 입력하세요', type: [0] }
+      { answer: 'a. 선택지를 입력하세요', type: [] },
+      { answer: 'b. 선택지를 입력하세요', type: [] }
     ]
   },
   {
     q: '8. 질문을 입력하세요',
     a: [
-      { answer: 'a. 선택지를 입력하세요', type: [0] },
-      { answer: 'b. 선택지를 입력하세요', type: [0] }
+      { answer: 'a. 선택지를 입력하세요', type: [] },
+      { answer: 'b. 선택지를 입력하세요', type: [] }
     ]
   },
   {
     q: '9. 질문을 입력하세요',
     a: [
-      { answer: 'a. 선택지를 입력하세요', type: [0] },
-      { answer: 'b. 선택지를 입력하세요', type: [0] }
+      { answer: 'a. 선택지를 입력하세요', type: [] },
+      { answer: 'b. 선택지를 입력하세요', type: [] }
     ]
   },
   {
     q: '10. 질문을 입력하세요',
     a: [
-      { answer: 'a. 선택지를 입력하세요', type: [0] },
-      { answer: 'b. 선택지를 입력하세요', type: [0] }
+      { answer: 'a. 선택지를 입력하세요', type: [] },
+      { answer: 'b. 선택지를 입력하세요', type: [] }
     ]
   },
   {
     q: '11. 질문을 입력하세요',
     a: [
-      { answer: 'a. 선택지를 입력하세요', type: [0] },
-      { answer: 'b. 선택지를 입력하세요', type: [0] }
+      { answer: 'a. 선택지를 입력하세요', type: [] },
+      { answer: 'b. 선택지를 입력하세요', type: [] }
     ]
   },
   {
     q: '12. 질문을 입력하세요',
     a: [
-      { answer: 'a. "선택지를 입력하세요', type: [0] },
-      { answer: 'b. "선택지를 입력하세요', type: [0] }
+      { answer: 'a. "선택지를 입력하세요', type: [] },
+      { answer: 'b. "선택지를 입력하세요', type: [] }
     ]
   }
 ]
