@@ -28,8 +28,8 @@ function setResult(){
   resultImg2.alt = point;
   resultImg1.classList.add('img-fluid');
   resultImg2.classList.add('img-fluid');
-  imgDiv1.append(resultImg1);
-  imgDiv2.append(resultImg2);
+  imgDiv1.appendChild(resultImg1);
+  imgDiv2.appendChild(resultImg2);
   
   const resultDesc = document.querySelector('.resultDesc');
   resultDesc.innerHTML = infoList[point].desc;
