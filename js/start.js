@@ -18,17 +18,18 @@ function setResult(){
 
   var resultImg1 = document.createElement('img');
   var resultImg2 = document.createElement('img');
-  const imgDiv = document.querySelector('#resultImg1');
-  const imgDiv = document.querySelector('#resultImg2');
+  const imgDiv1 = document.querySelector('#resultImg1');
+  const imgDiv2 = document.querySelector('#resultImg2');
   var imgURL1 = 'img/image-' + point + '.png';
   var imgURL2 = 'img/image-' + 'result' + point + '.png';
   resultImg1.src = imgURL1;
   resultImg2.src = imgURL2;
   resultImg1.alt = point;
   resultImg2.alt = point;
-  resultImg.classList.add('img-fluid');
-  imgDiv.appendChild(resultImg1);
-  imgDiv.appendChild(resultImg2);
+  resultImg1.classList.add('img-fluid');
+  resultImg2.classList.add('img-fluid');
+  imgDiv1.appendChild(resultImg1);
+  imgDiv2.appendChild(resultImg2);
   
   const resultDesc = document.querySelector('.resultDesc');
   resultDesc.innerHTML = infoList[point].desc;
