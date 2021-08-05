@@ -16,14 +16,20 @@ function setResult(){
   const resultName = document.querySelector('.resultname');
   resultName.innerHTML = infoList[point].name;
 
-  var resultImg = document.createElement('img');
-  const imgDiv = document.querySelector('#resultImg');
-  var imgURL = 'img/image-' + point + '.png';
-  resultImg.src = imgURL;
-  resultImg.alt = point;
+  var resultImg1 = document.createElement('img');
+  var resultImg2 = document.createElement('img');
+  const imgDiv = document.querySelector('#resultImg1');
+  const imgDiv = document.querySelector('#resultImg2');
+  var imgURL1 = 'img/image-' + point + '.png';
+  var imgURL2 = 'img/image-' + 'result' + point + '.png';
+  resultImg1.src = imgURL1;
+  resultImg2.src = imgURL2;
+  resultImg1.alt = point;
+  resultImg2.alt = point;
   resultImg.classList.add('img-fluid');
-  imgDiv.appendChild(resultImg);
-
+  imgDiv.appendChild(resultImg1);
+  imgDiv.appendChild(resultImg2);
+  
   const resultDesc = document.querySelector('.resultDesc');
   resultDesc.innerHTML = infoList[point].desc;
 }
