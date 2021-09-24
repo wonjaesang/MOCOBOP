@@ -108,66 +108,66 @@ const qnaList = [
 const infoList = [
   {
     name: '당신의 행운은? <손금>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '듬직한 <엄지발가락>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '우리 약속해! <새끼손가락>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '욕심의 상징 <귓볼>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '코코로삥뽕 <코>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '그놈의 <입>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: ' <팔꿈치>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '빠지지 않게 조심하세요 <배꼽>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '낼름낼름 <혀>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '엄지발가락 친구 <복숭아뼈>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '섹시한 <목젖>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: 'eyebrow flashing <눈썹>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
    {
     name: '승천해버렷!! <광대>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '살랑살랑 <꼬리뼈>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '냄시냄시 <인중>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   },
   {
     name: '부리부리 <엉덩이>',
-    desc: '설명을 입력하세요 '
+    desc: ''
   }
 ]
