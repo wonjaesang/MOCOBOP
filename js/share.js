@@ -1,4 +1,5 @@
-Kakao.Link.sendDefault({
+function kakaoShare(){
+  Kakao.Link.sendDefault({
   objectType: 'feed',
   content: {
     title: '디저트 사진',
@@ -30,3 +31,5 @@ Kakao.Link.sendDefault({
     },
   ]
 });
+
+}
